@@ -3,7 +3,8 @@
     name: bulkloader-bot
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 config.py"
+    startCommand: "python -m Modules"
+    
 
     plan: free
     envVars:
